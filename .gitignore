@@ -1,0 +1,9 @@
+.cache/
+.college_sci_cache/
+__pycache__/
+*.pyc
+*.xlsx
+*.records.json
+*.summary.json
+.DS_Store
+_preview_demo.xlsx

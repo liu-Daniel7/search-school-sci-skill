@@ -1,0 +1,108 @@
+{
+  "institution": {
+    "name": "Example University",
+    "ror": "00000000",
+    "match_regex": "示例大学|Example University"
+  },
+  "college": {
+    "display": "智能制造学院",
+    "cn": [
+      "智能制造学院"
+    ],
+    "en": [
+      "School of Intelligent Manufacturing",
+      "School of Mechanical and Electrical Engineering"
+    ],
+    "extra_patterns": [
+      "Mechanical[\\s\\-–—]*(Electronic|Electrical|Electric)"
+    ]
+  },
+  "lab_patterns": [
+    "Advanced Manufacturing Equipment",
+    "Intelligent Equipment Reliability"
+  ],
+  "other_school_patterns": [
+    "Geomatics",
+    "School of Civil",
+    "School of Electrical and Information",
+    "Economics and Management",
+    "School of Science"
+  ],
+  "affiliation_keywords": [
+    "Mechanical"
+  ],
+  "expand_by_faculty_authors": true,
+  "exclude_faculty": [
+    "示例兼职"
+  ],
+  "verified_names": {
+    "San Zhang": "张三"
+  },
+  "treat_university_only_as_college": false,
+  "unfiltered_max_hits": 2000,
+  "request_delay": 1.0,
+  "faculty": [
+    [
+      "张伟",
+      "zhangwei",
+      "教授"
+    ],
+    [
+      "王芳",
+      "wangfang",
+      "教授"
+    ],
+    [
+      "李强",
+      "liqiang",
+      "教授"
+    ],
+    [
+      "刘洋",
+      "liuyang",
+      "教授"
+    ],
+    [
+      "陈静",
+      "chenjing",
+      "副教授"
+    ],
+    [
+      "杨帆",
+      "yangfan",
+      "副教授"
+    ],
+    [
+      "赵敏",
+      "zhaomin",
+      "副教授"
+    ],
+    [
+      "周涛",
+      "zhoutao",
+      "副教授"
+    ],
+    [
+      "吴磊",
+      "wulei",
+      "讲师"
+    ],
+    [
+      "徐婷",
+      "xuting",
+      "讲师"
+    ],
+    [
+      "孙浩",
+      "sunhao",
+      "讲师"
+    ],
+    [
+      "马丽",
+      "mali",
+      "讲师"
+    ]
+  ],
+  "directions": "directions.json",
+  "as_of": "2025-12-31"
+}

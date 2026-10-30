@@ -1,0 +1,47 @@
+{
+  "institution": {
+    "name": "<University English Name>",
+    "ror": "<ror id>",
+    "match_regex": "<校名中英文片段，用|分隔>"
+  },
+  "college": {
+    "display": "<学院中文名>",
+    "cn": [
+      "<学院中文名>",
+      "<系名1>",
+      "<系名2>"
+    ],
+    "en": [
+      "<学院英文正式名>",
+      "<常见变体1>"
+    ],
+    "extra_patterns": [
+      "<正则：可覆盖各种写法>"
+    ]
+  },
+  "lab_patterns": [
+    "<学院所属实验室/中心的英文名片段>"
+  ],
+  "other_school_patterns": [
+    "<校内其他学院的英文/中文关键词，用于排除>"
+  ],
+  "affiliation_keywords": [
+    "Mechanical"
+  ],
+  "expand_by_faculty_authors": true,
+  "exclude_faculty": [
+    "<兼职/外聘人员中文名>"
+  ],
+  "verified_names": {
+    "<英文署名>": "<已核实中文名>"
+  },
+  "faculty": [
+    [
+      "<中文名>",
+      "<全拼>",
+      "<职称>"
+    ]
+  ],
+  "directions": "directions.json",
+  "as_of": "<YYYY-MM-DD>"
+}
