@@ -1,0 +1,46 @@
+{
+  "name": "search-school-sci-skill",
+  "version": "1.0.0",
+  "description": "查任意大学任意学院的科研产出，总结成可视化 Excel。",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "liu-Daniel7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liu-Daniel7/search-school-sci-skill.git"
+  },
+  "homepage": "https://github.com/liu-Daniel7/search-school-sci-skill",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "dsh",
+    "skill",
+    "research-analytics",
+    "bibliometrics",
+    "excel"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "scripts",
+    "reference",
+    "docs",
+    "tests",
+    "SKILL.md",
+    "README.md",
+    "CONTRIBUTING.md",
+    "cordis.patch.yml",
+    "requirements.txt",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-skill": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.3.0-0",
+    "@deepseek-ai/cordis": "~4.0.5"
+  }
+}

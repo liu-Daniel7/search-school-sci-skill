@@ -46,6 +46,18 @@ python scripts/college_sci.py --config config.json --out 学院科研产出.xlsx
 
 ---
 
+## 安装到 DSH
+
+本仓库同时是一个 DSH 插件包（`package.json` 声明了 `dsh.bundle`），安装后技能会自动出现在技能目录里：
+
+```bash
+dsh plugin add liu-Daniel7/search-school-sci-skill
+```
+
+装完直接说「用 search-school-sci 查某大学某学院的科研产出」即可触发。
+
+插件本体是 `lib/index.js`——一个不到 70 行的 skill provider，把仓库根目录的 `SKILL.md` 注册为技能正文，并把仓库根声明为 `resourceBase`，因此 `reference/*.md` 与 `scripts/*.py` 的相对路径都能正常解析。Python 脚本仍是实际的执行体。
+
 ## 快速开始
 
 ### 环境
