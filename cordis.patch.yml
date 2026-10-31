@@ -1,0 +1,5 @@
+# dsh bundle patch：把本仓库注册为一个 skill 提供者。
+# 装到 profile 后，每次会话都会在技能目录里出现 search-school-sci。
+- insert:
+    - id: search-school-sci
+      name: 'search-school-sci-skill'
